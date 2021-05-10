@@ -1,0 +1,122 @@
+.home-product{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7.5vh;
+    min-height: 100vh;
+}
+
+.home-product-topic-h2{
+    font-size: 45px;
+    color: #2b52ff;
+
+}
+
+.home-product-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-product-content-left{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-product-cards{
+    width: 100%;
+}
+
+.home-product-cards-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.home-product-singe-card{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(212, 226, 226);
+    color: #2b52ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Girassol', cursive;
+    padding: 5px;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 5px #c9cbd8);
+}
+
+.home-product-fontawesome{
+    align-self: center;
+    justify-self: center;
+}
+
+.home-product-content-right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 639px;
+    
+}
+
+.home-product-content-right-img{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.521)), url(../../../assets/flowers.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 5px #c9cbd8);
+    color: azure;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-product-content-right-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Monda;
+    padding-top: 20px;
+}
+
+@media (max-width: 1000px){
+    .home-product{
+        width: 100%;
+    }
+    .home-product-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .home-product-content-left{
+        width: 100%;
+    }
+    .home-product-cards{
+        width: 70vw;
+    }
+    .home-product-singe-card{
+        margin: 10px;
+    }
+    .home-product-content-right{
+        width: 100%;
+    }
+    .home-product-content-right-img{
+        min-height: 55vh;
+    }
+}

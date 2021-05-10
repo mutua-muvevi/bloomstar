@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Girassol', cursive;
+  filter: drop-shadow(1px 1px 20px black); 
+  line-height: 0%;
+  white-space: nowrap;
+}
+
+h2{
+  font-family: 'Girassol', cursive;
+  font-size: 60px;
+  line-height: auto;
+  justify-self: center;
+}
+
+
+h3{
+  font-family: 'Girassol', cursive;
+  font-size: 40px;
+  line-height: auto;
+  word-break: break;
+  text-overflow: ellipsis;
+}
+
+h4{
+  font-family: 'Girassol', cursive;
+}
+
+label{
+  font-family: Monda;
+  font-size: 24px;
+  color: #2b52ff;
+}
+
+input{
+  min-width: 250px;
+  padding: 10px;
+  border-color: #2b52ff;
+  font-family: Monda;
+  font-size: 18px;
+  background-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+input:focus{
+  outline: none;
+}
+
+input::placeholder{
+  font-family: Monda;
+  font-size: 16px;
+}
+
+textarea{
+  min-width: 35vw;
+  padding: 10px;
+  border-color: #2b52ff;
+  background-color: transparent;
+  font-family: Monda;
+  font-size: 18px;
+  border-width: 3px;
+  min-height: 40vh;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+textarea:focus{
+  outline: none;
+  
+}
+
+textarea::placeholder{
+  font-family: Monda;
+  font-size: 16px;
+}
+
+button {
+  min-width: 200px;
+  padding: 10px;
+  background-color: #2b52ff;
+  border: none;
+  filter: drop-shadow(2px 3px 7px #000000);
+  color: white;
+  font-family: Monda;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background: #63e404;
+}
+
+iframe{
+  width: 100vw;
+}
+
+@media (max-width: 1000px){
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  textarea {
+    width: 70vw !important;
+    margin: auto;
+  }
+  hr{
+    min-width: 80vw;
+    border-color: #2b52ff;
+  }
+
+}

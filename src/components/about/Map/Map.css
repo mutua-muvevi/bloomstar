@@ -1,0 +1,11 @@
+.map{
+    min-height: 50vh;
+    width: 100vw !important;
+    overflow: hidden;
+}
+
+.the-map{
+    width: 100vw !important;
+    height: 50vh;
+    /* width: 100%; */
+}

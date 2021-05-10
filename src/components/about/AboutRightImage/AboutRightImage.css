@@ -1,0 +1,120 @@
+.about-right{
+    height: auto;
+    min-height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+
+.about-right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-right-left{
+    width: 48%;
+    height: 90%;
+    background-color: #2b52ff;
+    font-family: Monda;
+    color: white;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    outline: 15px solid #2b52ff;
+    outline-offset: 5px ;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.p-about-right{
+    font-size: 35px;
+    padding: 10px;
+    font-family: 'Girassol', cursive;
+}
+
+
+
+
+.about-right-right{
+    height: 90%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right-upper{
+    height: 47%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.63)), url(../../../assets/team.jpg);
+    width: 85%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Monda;
+    font-size: 40px;
+    line-height: 0;
+    color: white;
+}
+
+.about-right-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 45%;
+    font-family: Monda;
+}
+
+.about-right-ul{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: disc;
+}
+
+@media (max-width: 1000px){
+    .about-right-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-right-content{
+        padding: 0px !important;
+        width: 100%;
+    }
+    .about-right-left{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0;
+        padding: 5px;
+        width: 100vw;
+        outline: none;
+    }
+    .about-right-right{
+        width: 100%;
+        padding: 10px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about-right-upper{
+        height: 28vh;
+        border-radius: 5px;
+        filter: drop-shadow(2px 2px 5px rgb(78, 77, 77))
+    }
+}
+

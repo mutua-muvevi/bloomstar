@@ -1,0 +1,74 @@
+.forms{
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+.forms-content {
+    display: flex;
+    width: 85vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: azure;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.form-left{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.555)), url(../../../assets/team.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    min-height: 40vh;
+    height: 100%;
+    width: 48%;
+}
+
+.the-form{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-email-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.form-name{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textarea{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+    .forms-content{
+        display: flex;
+        min-height: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form-left{
+        display: none;
+    }
+    .form-email-name{
+        display : flex;
+        flex-direction: column;
+    }
+}

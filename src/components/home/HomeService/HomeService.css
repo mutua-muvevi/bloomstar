@@ -1,0 +1,91 @@
+.home-service{
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.205), rgba(252, 252, 252, 0.274)), url(../../../assets/truck.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-service-topic-h2{
+    font-size: 45px;
+    color: #2b52ff;
+
+}
+
+.home-service-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.home-service-content-cards{
+    width: 430px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.856)), url(http://s14.directupload.net/images/111129/44ga9qid.png);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.home-service-content-card-image-1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.363)), url(../../../assets/truck\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;
+}
+.home-service-content-card-image-2{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.363)), url(../../../assets/plane.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 40vh;
+    margin-bottom: 10px;
+}
+.home-service-content-card-image-3{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.363)), url(../../../assets/ship\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 40vh;
+    margin-bottom: 10px;
+}
+
+.home-service-content-card-text{
+    min-height: 20vh;
+    margin: auto;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-service-card-h4{
+    color: white;
+    font-size: 30px;
+    line-height: 0%;
+}
+
+.home-service-card-p{
+    font-family: Monda;
+}
+
+@media (max-width: 1000px){
+    .home-service-content{
+        padding: 10px;
+    }
+    .home-service-content-cards{
+        margin-top: 15px;
+        margin-bottom: 15px
+    }
+}
